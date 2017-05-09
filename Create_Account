@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+<fieldset>
+<legend>Create Account:</legend>
+First name:<br>
+<input type="text" name="firstname" value=""> 
+<br><br>
+ Last name:<br> 
+ <input type="text" name="lastname" value="">  
+ <br><br>
+ Other Name(s):<br> 
+ <input type="text" name="OtherName(s)" value="">  
+ <br><br>
+ D.O.B:<br> 
+ <input type="number" name="D.O.B" value=""> 
+ <br><br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br> 
+  <input type="radio" name="gender" value="female"> Female<br> 
+  <br>
+   Employee Number:<br>
+   <input type="Number" name="EmployeeNumber" value=""> 
+   <br><br>
+   Position:<br> 
+   <select name="Position"> 
+   <option value="Team Manager">Team Manager</option>   
+   <option value="Project Manager">Project Manager</option>
+   <option value="Employee">Employee</option>   
+   <option value="Contractor">Contractor</option>
+   <option value="System Administrator">System Administrator</option> 
+   </select>  
+   <br><br>
+   Employee Telephone Number:<br>  
+   <input type="Number" name="EmployeeTelephoneNumber" value="">
+   <br><br> 
+   Employee Email Address:<br>  
+   <input type="text" name="EmployeeEmailAddress" value="">
+   <br><br>
+   <input type="submit">
+   </fieldset>
+   </form> 
+   
+</body>
+</html>
